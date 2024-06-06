@@ -1,0 +1,4 @@
+# Execute the following commands to Dockerize the Dash application
+
+docker build -t quintana .
+docker run -h localhost -p 9002:9000 -d --name quintana quintana
